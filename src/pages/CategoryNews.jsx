@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router";
 import NewsCard from "../components/NewsCard";
 
 const CategoryNews = () => {
-  const { id } = useParams(); //string
+  const { id } = useParams(); 
   const data = useLoaderData();
 
   const [categoryNews, setCategoryNews] = useState([]);
@@ -23,7 +23,7 @@ const CategoryNews = () => {
     }
   }, [id, data]);
 
-  // console.log(id, data);
+  
 
   return (
     <div>
