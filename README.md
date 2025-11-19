@@ -1,16 +1,48 @@
-# React + Vite
+# 📰 Dragon News Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dragon News** is a modern news web application built with React and Firebase. It allows users to browse news by category, read full articles, and enjoy a clean, responsive UI. Deployed on Firebase Hosting.
 
-Currently, two official plugins are available:
+**Live Site:** https://dragon-news-project-b3c92.web.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⭐ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse news in different **categories** (e.g. Business, Technology, Sports, etc.)  
+- Display of news articles fetched from an external/news API  
+- Responsive design for mobile, tablet, and desktop  
+- Firebase authentication (if আপনি login system দিয়েছো)  
+- Clean, user-friendly UI built with React  
+- Loading spinners / feedback while news data loads  
+- Routing between categories and article details
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Dependencies Used
+
+- **React** — ^19.1.1  
+- **React DOM** — ^19.1.1  
+- **React Router** — ^7.9.4  
+- **Firebase** — ^12.4.0  
+- **React Icons** — ^5.5.0  
+- **React Fast Marquee** — ^1.6.5  
+- **Date-fns** — ^4.1.0  
+- **TailwindCSS** — ^4.1.14  
+- **DaisyUI** — ^5.3.7  
+- **@tailwindcss/vite** — ^4.1.14
+
+  ---
+
+## ⚙️ Local Setup / Installation Guide
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/subornakter/Dragon-News-Project.git
+cd dragon-news-project
+
+2️⃣ Install Dependencies
+npm install
+3️⃣ Run the Project Locally
+npm run dev
+
